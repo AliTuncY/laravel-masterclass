@@ -6,10 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-<h2>Test Page</h2>
-<p>This is a test page to check if the server is running correctly.
-    <a href="{{route('detail')}}">Detail</a>
-</p>
-<p>Current time: {{ date('Y-m-d H:i:s') }}</p>
+    <h1>Detail</h1>
+    <p> Detail more
+        <a href="{{route('test')}}">Test</a>
+    </p>
 </body>
 </html>
