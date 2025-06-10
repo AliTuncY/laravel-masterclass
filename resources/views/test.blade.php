@@ -7,9 +7,7 @@
 </head>
 <body>
 <h2>Test Page</h2>
-<p>This is a test page to check if the server is running correctly.
-    <a href="{{route('detail')}}">Detail</a>
-</p>
+<p>This is a test page to check if the server is running correctly.</p>
 <p>Current time: {{ date('Y-m-d H:i:s') }}</p>
 </body>
 </html>
